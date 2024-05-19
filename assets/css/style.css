@@ -27,6 +27,9 @@ header {
     font-family: 'Roboto', sans-serif;
     color: white;
     box-shadow: 0 2px 2px whitesmoke;
+    display: flex;
+    align-items: baseline;
+
 }
 
 header a {
@@ -44,10 +47,28 @@ header a:hover {
     list-style-type: none;
 }
 
-h1 {
-    font-family: 'Arvo', sans-serif;
-    font-size: 170%;
+nav {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
 }
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-lable {
+    font-size: 2rem;
+}
+
 /* Main Content */
 main {
     background-color: lightgreen;
