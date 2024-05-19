@@ -85,7 +85,17 @@ main {
     /* Makes body take up all spaceto push the footer down */
     flex: 1 0 auto;
     margin-top: 76px;
+}
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+}
 
+#logo {
+    display: flex;
+    justify-content: center;
+    
 }
 
 #socials {
