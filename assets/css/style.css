@@ -1,5 +1,5 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Asterisk Selector overrides default styles added by the browser */
 * {
@@ -19,9 +19,15 @@ body {
 
 /* Header */
 header {
-    background-color: lightblue;
-    /* Replace Header font later */
-    font-family: 'Roboto', sans-serif; 
+    background-color: black;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    box-shadow: 0 2px 2px whitesmoke;
+
 }
 
 /* Main Content */
@@ -36,3 +42,16 @@ footer {
     background-color: lightpink;
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+h1 {
+    font-family: 'Arvo', sans-serif;
+    color: white;
+    font-weight: 300;
+}
