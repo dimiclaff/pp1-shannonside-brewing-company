@@ -37,10 +37,9 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    }
+}
 
-header a:hover {
-    text-decoration: underline;
+
 }
 
 h1 {
@@ -54,7 +53,7 @@ h1 {
     font-family: 'Roboto';
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1rem;
 }
 
@@ -88,7 +87,7 @@ main {
     /* Makes body take up all spaceto push the footer down */
     flex: 1 0 auto;
     margin-top: 76px;
-    
+
 }
 
 /* Footer */
@@ -105,11 +104,12 @@ footer {
         padding-right: 1rem;
         box-shadow: none;
     }
+
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -118,6 +118,8 @@ footer {
     }
 }
 
-
-
-
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        text-decoration: underline;
+    }
+}
