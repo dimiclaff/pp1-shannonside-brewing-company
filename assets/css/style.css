@@ -24,11 +24,12 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arvo', sans-serif;
     color: white;
     box-shadow: 0 2px 2px whitesmoke;
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 
 }
 
@@ -42,9 +43,19 @@ header a:hover {
     text-decoration: underline;
 }
 
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 #menu {
-    font-size: 120%;
+    font-size: 100%;
     list-style-type: none;
+    font-family: 'Roboto';
+}
+
+#menu > li {
+    margin-bottom: 1rem;
 }
 
 nav {
@@ -55,6 +66,7 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
+    box-shadow: 0 2px 2px whitesmoke;
 }
 
 #nav-toggle:checked~nav {
@@ -65,24 +77,46 @@ nav {
     display: none;
 }
 
-.nav-toggle-lable {
+.nav-toggle-label {
     font-size: 2rem;
 }
 
 /* Main Content */
 main {
-    background-color: lightgreen;
+    background-color: black;
+    color: white;
     /* Makes body take up all spaceto push the footer down */
     flex: 1 0 auto;
+    margin-top: 76px;
+    
 }
 
 /* Footer */
 footer {
-    background-color: lightpink;
+    background-color: white;
 }
 
+/*Media Queries, tablets and larger - 768px and up */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+        box-shadow: none;
+    }
+    #menu {
+        display: flex;
+    }
 
+    #menu > li {
+        padding-left: 1rem;
+    }
 
+    .nav-toggle-label {
+        display: none;
+    }
+}
 
 
 
