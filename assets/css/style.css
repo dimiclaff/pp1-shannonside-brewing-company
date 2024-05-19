@@ -40,8 +40,6 @@ header a {
 }
 
 
-}
-
 h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -90,9 +88,19 @@ main {
 
 }
 
+#socials {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#socials i {
+    font-size: 200%;
+}
 /* Footer */
 footer {
-    background-color: white;
+    background-color: black;
 }
 
 /*Media Queries, tablets and larger - 768px and up */
