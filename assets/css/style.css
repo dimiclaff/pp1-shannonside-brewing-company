@@ -27,9 +27,27 @@ header {
     font-family: 'Roboto', sans-serif;
     color: white;
     box-shadow: 0 2px 2px whitesmoke;
-
 }
 
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    }
+
+header a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    font-size: 120%;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Arvo', sans-serif;
+    font-size: 170%;
+}
 /* Main Content */
 main {
     background-color: lightgreen;
@@ -42,16 +60,9 @@ footer {
     background-color: lightpink;
 }
 
-a:link {
-    color: white;
-}
 
-a:visited {
-    color: lightblue;
-}
 
-h1 {
-    font-family: 'Arvo', sans-serif;
-    color: white;
-    font-weight: 300;
-}
+
+
+
+
