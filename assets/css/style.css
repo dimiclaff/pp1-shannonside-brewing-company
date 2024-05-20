@@ -256,5 +256,10 @@ footer {
         justify-content: space-evenly;
     }
 
+    #processes_container h3,
+    #sustainability_container h3 {
+        text-align: end;
+    }
+
 
 }
