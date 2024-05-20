@@ -63,7 +63,7 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-    
+
 }
 
 #nav-toggle:checked~nav {
@@ -157,8 +157,7 @@ footer {
 }
 
 /*Media Queries, tablets and larger - 768px and up */
-@media screen and (min-width: 768px) 
-{
+@media screen and (min-width: 768px) {
     nav {
         display: block;
         position: relative;
@@ -186,7 +185,7 @@ footer {
         padding-bottom: 20px;
     }
 
-/* INFO section */
+    /* INFO section */
 
     #info {
         font-size: 150%;
@@ -196,8 +195,9 @@ footer {
         max-width: 100%;
         max-height: 100vh;
         padding-bottom: 50px;
-    }    
-/*
+    }
+
+    /*
     #about_us_container,
     #history_container {
         display: flex;
@@ -224,14 +224,14 @@ footer {
         text-decoration: underline;
     }
 
-    #about_us_container img, 
+    #about_us_container img,
     #history_container img {
         min-width: 500px;
         max-height: 100vh;
         padding-bottom: 50px;
         vertical-align: middle;
         margin: 10%;
-    }    
+    }
 
     #processes_container img,
     #sustainability_container img {
@@ -266,7 +266,7 @@ footer {
 
 .gallery {
     margin: 5%;
-    
+
 }
 
 .gallery ul {
@@ -290,25 +290,52 @@ footer {
     object-fit: cover;
     vertical-align: bottom;
 }
-/*
-#gallery ul {
+
+
+  #form {
     display: flex;
-    flex-wrap: wrap;
-  }
-  
-#gallery li {
-    height: 40vh;
-    flex-grow: 1;
-  }
-  
-#gallery li:last-child {
-    
-    flex-grow: 10;
-  }
-#gallery img {
+    margin: 10%;
     max-height: 100%;
-    min-width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
+    max-width: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+    #form h2 {
+        padding-bottom: 2rem;
+    }
+  #form_entry {
+    display: table;
   }
-  */
+
+  #form_entry p {
+    display: table-row;
+  }
+
+  #form_entry label {
+    display: table-cell;
+  }
+
+  #form_entry input {
+    display: table-cell;
+  }
+  
+  .submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+    border-color: grey;
+    height: 50px;
+    width: 100px;
+    font-family: "Roboto";
+    font-size: 110%;
+
+    
+  }
+  
+
+
+
