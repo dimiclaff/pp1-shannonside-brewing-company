@@ -63,7 +63,7 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-    box-shadow: 0 2px 2px whitesmoke;
+    
 }
 
 #nav-toggle:checked~nav {
@@ -126,8 +126,6 @@ main {
 }
 
 
-
-
 #info {
     display: flex;
     flex-direction: column;
@@ -135,34 +133,12 @@ main {
 }
 
 #info img {
-    
+
     max-width: 100%;
     max-height: 100vh;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     margin: auto;
 }
-
-
-
-/*
-#about_us_container,
-#history_container,
-#processes_container,
-#sustainability_container {
-    display: flex;
-    flex-direction: column;
-}
-
-#about_us_text,
-#history_text,
-#processes_text,
-#sustainability_text {
-    font-size: larger;
-    padding: 30px 30px;
-}
-
-*/
-
 
 #socials {
     text-align: center;
@@ -181,7 +157,8 @@ footer {
 }
 
 /*Media Queries, tablets and larger - 768px and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) 
+{
     nav {
         display: block;
         position: relative;
@@ -209,10 +186,75 @@ footer {
         padding-bottom: 20px;
     }
 
+/* INFO section */
+
+    #info {
+        font-size: 150%;
+    }
+
+    #info img {
+        max-width: 100%;
+        max-height: 100vh;
+        padding-bottom: 50px;
+    }    
+/*
+    #about_us_container,
+    #history_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #processes_container,
+    #sustainability_container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    */
+
+
 }
 
+
+/*Media Queries, tablets and larger - 992px and up */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         text-decoration: underline;
     }
+
+    #about_us_container img, 
+    #history_container img {
+        min-width: 500px;
+        max-height: 100vh;
+        padding-bottom: 50px;
+        vertical-align: middle;
+        margin: 10%;
+    }    
+
+    #processes_container img,
+    #sustainability_container img {
+        min-width: 500px;
+        max-height: 100vh;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        margin: 10% 10% 10% 0;
+    }
+
+    #about_us_container,
+    #history_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #processes_container,
+    #sustainability_container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+
 }
