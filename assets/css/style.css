@@ -97,6 +97,30 @@ main {
     justify-content: center;
     
 }
+#tagline {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-decoration: underline;
+}
+
+#about_us {
+    width: 90%;
+    margin: 10px auto;
+
+}
+
+#about_us h3 {
+    font-size: 140%;
+    padding-bottom: 5px;
+}
+
+#about_us p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
 #socials {
     text-align: center;
