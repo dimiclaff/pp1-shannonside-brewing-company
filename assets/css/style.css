@@ -30,7 +30,6 @@ header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-
 }
 
 header a {
@@ -55,6 +54,8 @@ h1 {
     margin-bottom: 1rem;
 }
 
+
+/*Nav Bar*/
 nav {
     position: absolute;
     background-color: black;
@@ -63,7 +64,6 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-
 }
 
 #nav-toggle:checked~nav {
@@ -82,11 +82,11 @@ nav {
 main {
     background-color: black;
     color: white;
-    /* Makes body take up all spaceto push the footer down */
     flex: 1 0 auto;
     margin-top: 76px;
 }
 
+/* Hero Image and Logo */
 #hero {
     height: 400px;
     width: 100%;
@@ -107,13 +107,12 @@ main {
     padding-bottom: 2rem;
     padding-top: 2rem;
     text-decoration: underline;
-    ;
 }
 
+/* Info Section */
 #info {
     width: 90%;
     margin: 10px auto;
-
 }
 
 #info h3 {
@@ -134,7 +133,6 @@ main {
 }
 
 #info img {
-
     max-width: 100%;
     max-height: 100vh;
     padding-bottom: 50px;
@@ -143,6 +141,11 @@ main {
 
 
 /* Brewery tour section */
+#tour {
+    font-size: 140%;
+    padding-bottom: 5%;
+}
+
 #tours h2 {
     font-size: 200%;
     text-decoration: underline;
@@ -150,35 +153,62 @@ main {
 }
 
 #tours p {
-    font-size: 150%;
     padding: 20px 30px 20px;
 }
 
 .tour-container {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding-bottom: 20px;
 }
 
 .tour-item {
     flex: 1;
-    margin: 10px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: none;
     text-align: center;
     background-color: rgb(109, 85, 8);
     border-radius: 90px;
-    
+    max-width: 250px;
+    max-height: 100px;
+    word-wrap: normal;
 }
 
 #tour-link {
     text-decoration: none;
     color: inherit;
     text-decoration: inherit;
-    
 }
 
+
+/* Map Section */
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+
+#map-wrap {
+    height: 300px;
+    max-width: 100%;
+    margin-bottom: 55px;
+    padding: 30px;
+}
+
+#map-wrap h2 {
+    font-size: 200%;
+    text-decoration: underline;
+    padding: 20px 30px 20px;
+}
+
+
+
+
+/* Socials */
 #socials {
     text-align: center;
     padding: 20px 0;
@@ -194,6 +224,83 @@ main {
 footer {
     background-color: black;
 }
+
+
+/* Gallery Section */
+.gallery {
+    margin: 5%;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.gallery li {
+    height: 40vh;
+    flex-grow: 1;
+}
+
+.gallery li:last-child {
+    flex-grow: 10;
+}
+
+.gallery img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+
+/* Form Section */
+#form {
+    display: flex;
+    margin: 10%;
+    max-height: 100%;
+    max-width: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form h2 {
+    padding-bottom: 2rem;
+}
+
+#form_entry {
+    display: table;
+}
+
+#form_entry p {
+    display: table-row;
+}
+
+#form_entry label {
+    display: table-cell;
+}
+
+#form_entry input {
+    display: table-cell;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+    border-color: grey;
+    height: 50px;
+    width: 100px;
+    font-family: "Roboto";
+    font-size: 110%;
+}
+
+
+
+
 
 /*Media Queries, tablets and larger - 768px and up */
 @media screen and (min-width: 768px) {
@@ -225,7 +332,6 @@ footer {
     }
 
     /* INFO section */
-
     #info {
         font-size: 150%;
     }
@@ -242,10 +348,6 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-
-
-
 }
 
 
@@ -291,98 +393,12 @@ footer {
     #sustainability_container h3 {
         text-align: end;
     }
-
-
 }
-
-.gallery {
-    margin: 5%;
-
-}
-
-.gallery ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-.gallery li {
-    height: 40vh;
-    flex-grow: 1;
-}
-
-.gallery li:last-child {
-    flex-grow: 10;
-}
-
-.gallery img {
-    max-height: 100%;
-    min-width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
-}
+ 
 
 
-#form {
-    display: flex;
-    margin: 10%;
-    max-height: 100%;
-    max-width: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#form h2 {
-    padding-bottom: 2rem;
-}
-
-#form_entry {
-    display: table;
-}
-
-#form_entry p {
-    display: table-row;
-}
-
-#form_entry label {
-    display: table-cell;
-}
-
-#form_entry input {
-    display: table-cell;
-}
-
-.submit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    color: black;
-    border-color: grey;
-    height: 50px;
-    width: 100px;
-    font-family: "Roboto";
-    font-size: 110%;
 
 
-}
 
-#map-wrap {
 
-    height: 300px;
-    margin-bottom: 55px;
-    padding: 30px;
-}
-
-#map {
-    height: 100%;
-    width: 100%;
-    border: none;
-}
-
-#tour {
-    font-size: 140%;
-    padding-bottom: 5%;
-}
 
