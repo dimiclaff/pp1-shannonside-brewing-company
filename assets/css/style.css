@@ -107,6 +107,7 @@ main {
     padding-bottom: 2rem;
     padding-top: 2rem;
     text-decoration: underline;
+    ;
 }
 
 #info {
@@ -138,6 +139,44 @@ main {
     max-height: 100vh;
     padding-bottom: 50px;
     margin: auto;
+}
+
+
+/* Brewery tour section */
+#tours h2 {
+    font-size: 200%;
+    text-decoration: underline;
+    padding: 20px 30px 20px;
+}
+
+#tours p {
+    font-size: 150%;
+    padding: 20px 30px 20px;
+}
+
+.tour-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.tour-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: rgb(109, 85, 8);
+    border-radius: 90px;
+    
+}
+
+#tour-link {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: inherit;
+    
 }
 
 #socials {
@@ -197,22 +236,14 @@ footer {
         padding-bottom: 50px;
     }
 
-    /*
-    #about_us_container,
-    #history_container {
-        display: flex;
+
+    /* Tour Section */
+    .tour-container {
         flex-direction: row;
-        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
-    #processes_container,
-    #sustainability_container {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-    }
 
-    */
 
 
 }
@@ -292,7 +323,7 @@ footer {
 }
 
 
-  #form {
+#form {
     display: flex;
     margin: 10%;
     max-height: 100%;
@@ -300,28 +331,29 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
- }
+}
 
-    #form h2 {
-        padding-bottom: 2rem;
-    }
-  #form_entry {
+#form h2 {
+    padding-bottom: 2rem;
+}
+
+#form_entry {
     display: table;
-  }
+}
 
-  #form_entry p {
+#form_entry p {
     display: table-row;
-  }
+}
 
-  #form_entry label {
+#form_entry label {
     display: table-cell;
-  }
+}
 
-  #form_entry input {
+#form_entry input {
     display: table-cell;
-  }
-  
-  .submit {
+}
+
+.submit {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -333,9 +365,24 @@ footer {
     font-family: "Roboto";
     font-size: 110%;
 
-    
-  }
-  
 
+}
 
+#map-wrap {
+
+    height: 300px;
+    margin-bottom: 55px;
+    padding: 30px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+#tour {
+    font-size: 140%;
+    padding-bottom: 5%;
+}
 
