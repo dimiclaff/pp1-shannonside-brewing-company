@@ -33,11 +33,13 @@ The Shannonside Brewing Company is a website advertising a fictional brewery on 
     - Local Development
 
 - Testing
+    - HTML Validation
+    - CSS Validation
+    - Manual Testing
 
 - Credits
     - Code Used
     - Content
-    - Media
     - Acknowledgements
 
 ## User Experience
@@ -168,4 +170,21 @@ The colour scheme used throughtout the website is a simple black and white, it m
 
 ### CSS Validation
 
-### Performance
+### Manual Testing
+ - Nav Bar
+ - Brewery Tour Links
+ - Social Pages Links
+ - Form on Contact Us Page
+
+ ### Known Bugs
+ - At a screen width of 768px the Tour Guide names are sticking out of the bottom of the background
+ - At a screen width of 1024px there is a white border that runs down the right side of the all pages, this dissappears at a screen width of 2560px
+ - On the Contact Us page the label for the message box is aligned to the bottom left of the box, not top left
+ - 
+
+
+## Credits 
+
+### Code Used
+### Content
+### Acknowledgements
