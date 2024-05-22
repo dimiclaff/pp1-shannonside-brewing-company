@@ -97,7 +97,7 @@ main {
 #hero {
     height: 400px;
     max-width: 100%;
-    background: url("../images/index-images/hero-image.jpg") no-repeat center center/cover;
+    background: url("../images/index-images/hero_image.jpg") no-repeat center center/cover;
 }
 
 #logo {
@@ -345,7 +345,7 @@ footer {
         height: 400px;
         max-width: 100%;
         
-        background: url("../images/index-images/hero-image.jpg") no-repeat center center/cover;
+        background: url("../images/index-images/hero_image.jpg") no-repeat center center/cover;
 
     #logo {
         display: flex;
@@ -413,5 +413,12 @@ footer {
     #processes_container h3,
     #sustainability_container h3 {
         text-align: end;
+    }
+}
+
+/*Media Queries, tablets and larger - 1440px and up */
+@media screen and (min-width: 992px) {
+    #info p {
+        font-size: 150%;
     }
 }
