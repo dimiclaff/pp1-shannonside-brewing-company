@@ -10,7 +10,9 @@
 
 /* General Styles */
 body {
+    max-width: 100%;
     min-height: 100vh;
+    
     display: flex;
     flex-direction: column;
     color: black;
@@ -25,11 +27,13 @@ header {
     z-index: 99;
     width: 100%;
     font-family: 'Arvo', sans-serif;
+    font-size: 75%;
     color: white;
     box-shadow: 0 2px 2px whitesmoke;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+
 }
 
 header a {
@@ -42,6 +46,8 @@ header a {
 h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #menu {
@@ -59,11 +65,12 @@ h1 {
 nav {
     position: absolute;
     background-color: black;
-    width: 100%;
+    max-width: 100%;
     left: 0;
     padding: 0 1rem;
     display: none;
     top: 100%;
+    
 }
 
 #nav-toggle:checked~nav {
@@ -89,7 +96,7 @@ main {
 /* Hero Image and Logo */
 #hero {
     height: 400px;
-    width: 100%;
+    max-width: 100%;
     background: url("../images/index-images/hero-image.jpg") no-repeat center center/cover;
 }
 
@@ -103,7 +110,7 @@ main {
 #tagline {
     display: flex;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
     padding-bottom: 2rem;
     padding-top: 2rem;
     text-decoration: underline;
@@ -140,6 +147,8 @@ main {
 }
 
 
+
+
 /* Brewery tour section */
 #tour {
     font-size: 140%;
@@ -165,7 +174,7 @@ main {
     padding-bottom: 20px;
 }
 
-.tour-item {
+#tour-item {
     flex: 1;
     padding: 20px;
     border: none;
@@ -304,11 +313,19 @@ footer {
 
 /*Media Queries, tablets and larger - 768px and up */
 @media screen and (min-width: 768px) {
-    nav {
+
+    #header {
+        max-width: 100%;
+        
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    nav { 
         display: block;
         position: relative;
-        width: fit-content;
-        padding-right: 1rem;
+        max-width: 100%;
         box-shadow: none;
     }
 
@@ -323,6 +340,12 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    #hero {
+        height: 400px;
+        max-width: 100%;
+        
+        background: url("../images/index-images/hero-image.jpg") no-repeat center center/cover;
 
     #logo {
         display: flex;
@@ -349,14 +372,12 @@ footer {
         flex-wrap: wrap;
     }
 }
+}
 
 
 /*Media Queries, tablets and larger - 992px and up */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-        text-decoration: underline;
-    }
-
+    
     #about_us_container img,
     #history_container img {
         min-width: 500px;
@@ -394,11 +415,3 @@ footer {
         text-align: end;
     }
 }
- 
-
-
-
-
-
-
-

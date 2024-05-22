@@ -169,6 +169,9 @@ The colour scheme used throughtout the website is a simple black and white, it m
 ### HTML Validation
 
 ### CSS Validation
+#### No errors were found in the CSS validation
+
+      
 
 ### Manual Testing
  - Nav Bar
@@ -180,7 +183,7 @@ The colour scheme used throughtout the website is a simple black and white, it m
  - At a screen width of 768px the Tour Guide names are sticking out of the bottom of the background
  - At a screen width of 1024px there is a white border that runs down the right side of the all pages, this dissappears at a screen width of 2560px
  - On the Contact Us page the label for the message box is aligned to the bottom left of the box, not top left
- - 
+ - Form allows visitors to rogress without filling out all information
 
 
 ## Credits 
