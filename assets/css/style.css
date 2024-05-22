@@ -399,16 +399,16 @@ footer {
 
     #about_us_container img,
     #history_container img {
-        min-width: 500px;
+        max-width: 400px;
         max-height: 100vh;
         padding-bottom: 50px;
-        vertical-align: middle;
         margin: 10%;
+    
     }
 
     #processes_container img,
     #sustainability_container img {
-        min-width: 500px;
+        max-width: 400px;
         max-height: 100vh;
         padding-bottom: 50px;
         padding-right: 50px;

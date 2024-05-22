@@ -154,14 +154,7 @@ The colour scheme used throughtout the website is a simple black and white, it m
 - Google Maps was used to show the map at the bottom of the index page
 
 
-## Deployment
- The website was deployed using GitHub Pages by:
- 1. In the repository click on the settings tab located on the top of the page
- 2. Click on the pages tab on the left hand side of the page
- 3. Set Source to "Deploy from Branch"
- 4. Make sure "Main Branch is selected
- 5. Make sure folder is set to "/(root)
- 6. Save
+
 
 
 ## Testing
@@ -181,13 +174,23 @@ The colour scheme used throughtout the website is a simple black and white, it m
 
  ### Known Bugs
  - At a screen width of 768px the Tour Guide names are sticking out of the bottom of the background
- - At a screen width of 1024px there is a white border that runs down the right side of the all pages, this dissappears at a screen width of 2560px
  - On the Contact Us page the label for the message box is aligned to the bottom left of the box, not top left
  - Form allows visitors to rogress without filling out all information
+
 
 
 ## Credits 
 
 ### Code Used
 ### Content
+
+## Deployment
+ The website was deployed using GitHub Pages by:
+ 1. In the repository click on the settings tab located on the top of the page
+ 2. Click on the pages tab on the left hand side of the page
+ 3. Set Source to "Deploy from Branch"
+ 4. Make sure "Main Branch is selected
+ 5. Make sure folder is set to "/(root)
+ 6. Save
+
 ### Acknowledgements
