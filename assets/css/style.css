@@ -180,10 +180,11 @@ main {
     border: none;
     text-align: center;
     background-color: rgb(109, 85, 8);
-    border-radius: 90px;
+    border-radius: 20px;
     max-width: 250px;
     max-height: 100px;
     word-wrap: normal;
+    margin: 10px;
 }
 
 #tour-link {
@@ -346,6 +347,7 @@ footer {
         max-width: 100%;
         
         background: url("../images/index-images/hero_image.jpg") no-repeat center center/cover;
+    }
 
     #logo {
         display: flex;
@@ -355,9 +357,7 @@ footer {
     }
 
     /* INFO section */
-    #info {
-        font-size: 150%;
-    }
+   
 
     #info img {
         max-width: 100%;
@@ -371,8 +371,21 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    #tours p {
+        font-size: 120%;
+    }
+
+    #tour-item {
+    max-width: 200px;
+    max-height: 300px;
+    word-wrap: normal;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    }
 }
-}
+
 
 
 /*Media Queries, tablets and larger - 992px and up */
@@ -417,8 +430,19 @@ footer {
 }
 
 /*Media Queries, tablets and larger - 1440px and up */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1440px) {
     #info p {
         font-size: 150%;
+    }
+
+    #tour-item {
+    max-width: 400px;
+    max-height: 200px;
+}
+}
+
+@media screen and (min-width: 2560px) {
+    #info p {
+        font-size: 200%;
     }
 }
