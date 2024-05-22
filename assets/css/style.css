@@ -186,8 +186,8 @@ main {
     margin: 10px;
 }
 
-#tour-link {
-    text-decoration: underline;
+.tour-link {
+    text-decoration: none;
     color: inherit;
     text-decoration: inherit;
 }
