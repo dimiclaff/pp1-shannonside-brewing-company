@@ -117,3 +117,55 @@ The colour scheme used throughtout the website is a simple black and white, it m
 - Each day shows the day, date, time and tour guide.
 - Each day is a link which will bring the visitor to the "Contact Us" page.
 ![Brewery Tour Section](assets/images/readme-images/tours.png)
+
+#### Gallery Page
+- This section show a collection of photos from the brewery
+- This page is fully responsive to all screen sizes
+
+#### Contact Us Page
+- This page contains a functioning feedback and request form
+- It requires the user to input a name
+- It requires the user to input a functioning email address
+- It allows the user to write a message to enquire about booking a tour or finding out more about the Brewery
+
+#### Footer
+- The footer is shown on all pages and is responsive to all screen sizes
+- It contains functionng links to the Brewerys social media pages
+
+### Future Implemantations
+- A Store page
+- A Review page
+
+### Accesability
+- xxxxxxxxxxxxxxxxxxxxxx
+- xxxxxxxxxxxxxxxxxxxxxx
+- xxxxxxxxxxxxxxxxxxxxxx
+
+## Technologilies Used
+### Frameworks, Libraries and Programs Used
+- HTML was used to create the basic outline of the website
+- CSS was used to style the website
+- Canva was used to create the Logo
+- Balsamiq was used to create the wireframes
+- Google Fonts was used for the fonts, Arvo and Roboto
+- FontAwsome was used for the icons
+- Google Maps was used to show the map at the bottom of the index page
+
+
+## Deployment
+ The website was deployed using GitHub Pages by:
+ 1. In the repository click on the settings tab located on the top of the page
+ 2. Click on the pages tab on the left hand side of the page
+ 3. Set Source to "Deploy from Branch"
+ 4. Make sure "Main Branch is selected
+ 5. Make sure folder is set to "/(root)
+ 6. Save
+
+
+## Testing
+
+### HTML Validation
+
+### CSS Validation
+
+### Performance
