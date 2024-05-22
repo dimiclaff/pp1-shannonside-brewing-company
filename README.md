@@ -8,11 +8,14 @@ The Shannonside Brewing Company is a website advertising a fictional brewery on 
 
 ## Contents
 
-- User Experiances
-    - User Stories
+- User Experiences
+    - Site Owner Goals
+    - First Time Visitor Goals
+    - Returning Visitor Goals
 
 - Design
     - Typography
+    - Colour Scheme
     - Imagery
     - Wireframes
 
@@ -36,3 +39,50 @@ The Shannonside Brewing Company is a website advertising a fictional brewery on 
     - Content
     - Media
     - Acknowledgements
+
+## User Experience
+### Site Owner Goals
+- To provide information to the visitor
+- To provide a history of the brewery to the visitor
+- To show the process and sustainability of the brewery
+- To provide information on the brewerys tours
+- To provide a place the visitor can contact the brewery
+
+### First Time Visitor Goals
+- To find information on the brewery
+- To see when the brewery is open for tours
+- To be able to contact the brewery
+- To be able to easily navigate the site
+
+### Returning Visitors Goals
+- To be able to easily find information
+- To be able to conytact the brewery
+- To be able to see up to date information on tour details
+
+## Design
+### Typography
+- The fonts used on the site are Roboto, Arvo and Cerebi. All are considered to be dyslexic friendly.
+- Arvo is used on the brewery name on the top left of each page
+- Cerebi is used on the logo
+- Roboto is the man font used throughout the site
+
+### Colour Scheme
+The colour scheme used throughtout the website is a simple black and white, it matches the logo and portrays a sense of night time.
+
+### Imagery
+- The hero image at the top of the index page is of a city street along the banks of the river Shannon at sunset. It gives the feeling of Bohemian nightlife. 
+- The other images on the index page use earthy tones which are in line with the natural ingredients used in the brewery.
+- The gallery section shows some machinery and equipment used in the brewery along with employees and patrons of the tour.
+
+### Wireframes
+
+#### Index
+![Wireframe for the index page](assets/wireframe/index_wireframe.png)
+<br>
+
+#### Gallery
+![Wireframe for the gallery page](assets/wireframe/gallery_wireframe.png)
+<br>
+
+#### Contact Us
+![Wireframe for the contact us page](assets/wireframe/contact_wireframe.png)
