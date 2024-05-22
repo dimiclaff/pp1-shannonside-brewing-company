@@ -12,7 +12,6 @@
 body {
     max-width: 100%;
     min-height: 100vh;
-    
     display: flex;
     flex-direction: column;
     color: black;
@@ -22,7 +21,7 @@ body {
 /* Header */
 header {
     background-color: black;
-    padding: 0 1rem;
+    padding: 0 2rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -70,7 +69,7 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-    
+
 }
 
 #nav-toggle:checked~nav {
@@ -289,6 +288,8 @@ footer {
 
 #form_entry label {
     display: table-cell;
+    padding-bottom: 10px;
+    
 }
 
 #form_entry input {
@@ -308,7 +309,12 @@ footer {
     font-size: 110%;
 }
 
-
+.message-field {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    
+}
 
 
 
@@ -317,13 +323,16 @@ footer {
 
     #header {
         max-width: 100%;
-        
+        position: relative;
+        padding: 0 0 0 0;
+
     }
+
     a:hover {
         text-decoration: underline;
     }
 
-    nav { 
+    nav {
         display: block;
         position: relative;
         max-width: 100%;
@@ -332,6 +341,7 @@ footer {
 
     #menu {
         display: flex;
+        left: 0;
     }
 
     #menu>li {
@@ -345,7 +355,7 @@ footer {
     #hero {
         height: 400px;
         max-width: 100%;
-        
+
         background: url("../images/index-images/hero_image.jpg") no-repeat center center/cover;
     }
 
@@ -357,7 +367,7 @@ footer {
     }
 
     /* INFO section */
-   
+
 
     #info img {
         max-width: 100%;
@@ -377,12 +387,12 @@ footer {
     }
 
     #tour-item {
-    max-width: 200px;
-    max-height: 300px;
-    word-wrap: normal;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
+        max-width: 200px;
+        max-height: 300px;
+        word-wrap: normal;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px;
     }
 }
 
@@ -390,7 +400,7 @@ footer {
 
 /*Media Queries, tablets and larger - 992px and up */
 @media screen and (min-width: 992px) {
-    
+
     #about_us_container img,
     #history_container img {
         min-width: 500px;
@@ -436,13 +446,31 @@ footer {
     }
 
     #tour-item {
-    max-width: 400px;
-    max-height: 200px;
-}
+        max-width: 400px;
+        max-height: 200px;
+    }
+
+    #tours {
+        padding-left: 30px;
+    }
+
+    #tours p {
+        font-size: 130%;
+    }
 }
 
+
+/*Media Queries, tablets and larger - 2560px and up */
 @media screen and (min-width: 2560px) {
     #info p {
         font-size: 200%;
+    }
+
+    #tours {
+        padding-left: 60px;
+    }
+
+    #tours p {
+        font-size: 170%;
     }
 }
