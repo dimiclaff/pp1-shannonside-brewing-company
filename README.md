@@ -174,12 +174,32 @@ The colour scheme used throughtout the website is a simple black and white, it m
 
  ### Known Bugs
  - At a screen width of 768px the Tour Guide names are sticking out of the bottom of the background
- - On the Contact Us page the label for the message box is aligned to the bottom left of the box, not top left
  - Form allows visitors to rogress without filling out all information
+
+ #### All known bugs resolved
 
 
 
 ## Credits 
+
+### Images
+#### All images were sourced from Pexels.com
+- canning_machine_closeup by cottonbro studio
+- employee_testing by cottonbro studio
+- waitress_serving_beer by ELEVATE
+- employee_smiling by ELEVATE
+- employee_closing_vat by ELEVATE
+- vat_long_view by ELEVATE
+- canning_machine by cottonbro studio
+- people_at_bar by ELEVATE
+- employee_testing_colour by cottonbro studio
+- hands_in_grain by cottonbro studio
+- man_drinking_at_bar by Pavel Danilyuk
+- two_people_laughing by ELEVATE
+- about_us_pic by Arthur Brognoli
+- hero_image by Steven Hylands
+- history_image by Pixabay
+- sustainability_image by Tom Fisk
 
 ### Code Used
 ### Content
