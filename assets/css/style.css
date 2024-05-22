@@ -173,7 +173,7 @@ main {
     padding-bottom: 20px;
 }
 
-#tour-item {
+.tour-item {
     flex: 1;
     padding: 20px;
     border: none;
@@ -187,7 +187,7 @@ main {
 }
 
 #tour-link {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
     text-decoration: inherit;
 }
@@ -309,12 +309,8 @@ footer {
     font-size: 110%;
 }
 
-.message-field {
-    position: relative;
-    top: 0px;
-    right: 0px;
-    
-}
+
+
 
 
 
@@ -386,7 +382,7 @@ footer {
         font-size: 120%;
     }
 
-    #tour-item {
+    .tour-item {
         max-width: 200px;
         max-height: 300px;
         word-wrap: normal;
@@ -445,7 +441,7 @@ footer {
         font-size: 150%;
     }
 
-    #tour-item {
+    .tour-item {
         max-width: 400px;
         max-height: 200px;
     }
