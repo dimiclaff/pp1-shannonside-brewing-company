@@ -4,7 +4,7 @@
 
 The Shannonside Brewing Company is a website advertising a fictional brewery on the banks of the river Shannon in Ireland.
 
-![Website on arange of devices](assets/images/website_responsiveness.png)
+![Website on arange of devices](assets/images/readme-images/website_responsiveness.png)
 
 ## Contents
 
@@ -86,3 +86,34 @@ The colour scheme used throughtout the website is a simple black and white, it m
 
 #### Contact Us
 ![Wireframe for the contact us page](assets/wireframe/contact_wireframe.png)
+
+
+## Features
+### General Features on Each Page
+#### Nav Bar
+- Featured on all pages
+- The Nav Bar is fully responsive and on smaller screens it will change to a Hambuger icon with a functioning dropdown menu
+- Allows users to easily navigate to all pages from all pages
+
+![Header and the Nav Links](assets/images/readme-images/Header.png)
+
+#### Hero Image and Logo
+- Image of a city street on the river Shannon. In the center of the image the Brewerys logo is centered.
+
+![Hero Image and Logo](assets/images/readme-images/Heroimage_logo.png)
+
+#### Information Section
+- This section provides information on the Brewery under the following headings.
+    - About Us.
+    - History.
+    - Processes.
+    - Sustainability.
+- Under each heading is a paragraph of text providing information and an image organised into rows.
+- On smaller screens the image is moved to under each heading.
+
+#### Brewery Tours Section
+- This section provides information on the upcoming rewery tours.
+- It shows the next four available days.
+- Each day shows the day, date, time and tour guide.
+- Each day is a link which will bring the visitor to the "Contact Us" page.
+![Brewery Tour Section](assets/images/readme-images/tours.png)
