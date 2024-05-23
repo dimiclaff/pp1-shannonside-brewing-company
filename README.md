@@ -167,10 +167,10 @@ The colour scheme used throughtout the website is a simple black and white, it m
       
 
 ### Manual Testing
- - Nav Bar
- - Brewery Tour Links
- - Social Pages Links
- - Form on Contact Us Page
+ - Nav Bar: checked links on all pages
+ - Brewery Tour Links: All links bring the visitor to the contact us page
+ - Social Pages Links: All links bring isitor to the home page of the respective soo media website
+ - Form on Contact Us Page: Tried to send while all boxes were empty, then two boxes empty, then just one box empty, it wouldnt allow the user to proceed. Tried to send while having an incomplete email address, it wouldnt allow the user to proceed. Tried to send while all inputs were correct and the information sent correctly. 
 
  ### Known Bugs
  - At a screen width of 768px the Tour Guide names are sticking out of the bottom of the background
