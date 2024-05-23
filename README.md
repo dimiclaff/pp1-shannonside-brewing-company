@@ -1,6 +1,6 @@
 # Shannonside Brewing Company Website
 
-[View the live website here] https://dimiclaff.github.io/pp1-shannonside-brewing-company/
+[View the live website here](https://dimiclaff.github.io/pp1-shannonside-brewing-company/)
 
 The Shannonside Brewing Company is a website advertising a fictional brewery on the banks of the river Shannon in Ireland.
 
@@ -8,38 +8,40 @@ The Shannonside Brewing Company is a website advertising a fictional brewery on 
 
 ## Contents
 
-- User Experiences
+- [User Experiences](#user-experience)
     - Site Owner Goals
     - First Time Visitor Goals
     - Returning Visitor Goals
 
-- Design
+- [Design](#design)
     - Typography
     - Colour Scheme
     - Imagery
     - Wireframes
 
-- Features
+- [Features](#features)
     - Gerneral Features on Each Page
     - Future Implementations
-    - Accessibility
+    
 
-- Technologilies Used
+- [Technologilies Used](#technologilies-used)
     - Languages Used
     - Frameworks, Libraries and Programs Used
 
-- Deployment and Local Development
-    - Deployment
-    - Local Development
+- [Deployment](#deployment)
+    - Deploying a Repository
+    - Cloning a Repository
+    - Forking a Repository
 
-- Testing
+- [Testing](#testing)
     - HTML Validation
     - CSS Validation
     - Manual Testing
+    - Accessibility
 
-- Credits
+- [Credits](##Credits)
     - Code Used
-    - Content
+    - Images
     - Acknowledgements
 
 ## User Experience
@@ -138,10 +140,6 @@ The colour scheme used throughtout the website is a simple black and white, it m
 - A Store page
 - A Review page
 
-### Accesability
-- xxxxxxxxxxxxxxxxxxxxxx
-- xxxxxxxxxxxxxxxxxxxxxx
-- xxxxxxxxxxxxxxxxxxxxxx
 
 ## Technologilies Used
 ### Frameworks, Libraries and Programs Used
@@ -160,6 +158,7 @@ The colour scheme used throughtout the website is a simple black and white, it m
 ## Testing
 
 ### HTML Validation
+#### No errors were found in the HTML validation
 
 ### CSS Validation
 #### No errors were found in the CSS validation
@@ -178,6 +177,10 @@ The colour scheme used throughtout the website is a simple black and white, it m
 
  #### All known bugs resolved
 
+### Accesability
+- xxxxxxxxxxxxxxxxxxxxxx
+- xxxxxxxxxxxxxxxxxxxxxx
+- xxxxxxxxxxxxxxxxxxxxxx
 
 
 ## Credits 
@@ -202,15 +205,33 @@ The colour scheme used throughtout the website is a simple black and white, it m
 - sustainability_image by Tom Fisk
 
 ### Code Used
-### Content
+- The code used for the map was taken from Google Maps by using the embed feature
+- The code for wrapping the gallery pics was taken from [css-tricks-com](https://css-tricks.com/adaptive-photo-layout-with-flexbox/)
+
+
 
 ## Deployment
+### Deploying a Repository
  The website was deployed using GitHub Pages by:
- 1. In the repository click on the settings tab located on the top of the page
- 2. Click on the pages tab on the left hand side of the page
- 3. Set Source to "Deploy from Branch"
- 4. Make sure "Main Branch is selected
- 5. Make sure folder is set to "/(root)
- 6. Save
+ 1. Go to the GitHub Repository at https://github.com/dimiclaff/pp1-shannonside-brewing-company
+ 2. In the repository click on the settings tab located on the top of the page
+ 3. Click on the pages tab on the left hand side of the page
+ 4. Set Source to "Deploy from Branch"
+ 5. Make sure "Main Branch is selected
+ 6. Make sure folder is set to "/(root)
+ 7. Save
+
+### Cloning a Repository
+1. Go to the GitHub Repository at https://github.com/dimiclaff/pp1-shannonside-brewing-company
+2. Click the green "Code" button on the right hand side of the screen, click HTTPs the copy the address underneath
+3. Open a GitBash terminal and change the current working directory to the location where you want the cloned directory.
+4. Type "git clone" then paste the URL youve copied.
+5. Press Enter
+
+### Forking a Repository
+1. Go to the GitHub Repository at https://github.com/dimiclaff/pp1-shannonside-brewing-company
+2. Click the fork button in the top right corner
+
 
 ### Acknowledgements
+A big thank you to my mentor Mitko Bachvarov. He gave me a lot of good advice and encouragment. 
