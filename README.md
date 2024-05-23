@@ -37,7 +37,6 @@ The Shannonside Brewing Company is a website advertising a fictional brewery on 
     - HTML Validation
     - CSS Validation
     - Manual Testing
-    - Accessibility
     - Performance
 
 - [Credits](##Credits)
