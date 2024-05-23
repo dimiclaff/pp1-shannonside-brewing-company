@@ -38,6 +38,7 @@ The Shannonside Brewing Company is a website advertising a fictional brewery on 
     - CSS Validation
     - Manual Testing
     - Accessibility
+    - Performance
 
 - [Credits](##Credits)
     - Code Used
@@ -181,6 +182,8 @@ The colour scheme used throughtout the website is a simple black and white, it m
 - xxxxxxxxxxxxxxxxxxxxxx
 - xxxxxxxxxxxxxxxxxxxxxx
 - xxxxxxxxxxxxxxxxxxxxxx
+
+### Performance
 
 
 ## Credits 
