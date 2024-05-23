@@ -178,12 +178,21 @@ The colour scheme used throughtout the website is a simple black and white, it m
 
  #### All known bugs resolved
 
-### Accesability
-- xxxxxxxxxxxxxxxxxxxxxx
-- xxxxxxxxxxxxxxxxxxxxxx
-- xxxxxxxxxxxxxxxxxxxxxx
 
 ### Performance
+
+#### Index on desktop
+![index on desktop](assets/images/readme-images/index_desktop.png)
+#### Index on mobile
+![Index on mobile](assets/images/readme-images/index_mobile.png)
+#### Gallery on desktop
+![Gallery on desktop](assets/images/readme-images/gallery_desktop.png)
+#### Gallery on mobile
+![Gallery on desktop](assets/images/readme-images/gallery_mobile.png)
+#### Contact Us on desktop
+![Contact Us on desktop](assets/images/readme-images/contact_desktop.png)
+#### Contact Us on mobile
+![Contact Us on desktop](assets/images/readme-images/contact_mobile.png)
 
 
 ## Credits 
